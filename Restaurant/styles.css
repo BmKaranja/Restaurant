@@ -66,12 +66,18 @@ BODY{
         font-size: x-small;
     }
     .content p{
-        font-size: 4vw;
+        font-size: small;
     }
     #manager{
         width: 100%;
         clip-path: circle(80%);
         margin-top: 40pt;
+    }
+    #h2-1{
+        display: none;
+    }
+    .menu-item{
+        display: none;
     }
 }
 .Logo{
@@ -105,4 +111,45 @@ BODY{
     clip-path: circle(30%);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     margin-left: 12vw;
+}
+.menu-preview{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+h2{
+    text-decoration: underline;
+}
+.menu-item{
+    background-color: rgba(109, 247, 17, 0.826);
+    color: var(--text-color);
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.menu-item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(181, 224, 25, 0.2);
+}
+.menu-item p{
+    text-align: center;
+    font-size: 1.5vw;
+}
+.menu-item img{
+    border-radius: 10px;
+    padding-left: 2%;
+    object-fit: cover;
+    height: 40vh;
+    width: auto;
+}
+.About p{
+    text-align: center;
+    color: rgb(213, 247, 17);
+    font-size: medium;
+}
+.About{
+    justify-content: center;
+    align-items: center;
+    padding: 0 6vw;
 }
