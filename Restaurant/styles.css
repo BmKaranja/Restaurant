@@ -59,13 +59,19 @@ BODY{
         position: relative;
         top: 10%;
     }
+    .content{
+        margin-top: -4vh;
+    }
+    .content h1{
+        font-size: x-small;
+    }
     .content p{
-        font-size: 43vw;
-        width: 80%;
+        font-size: 4vw;
     }
     #manager{
         width: 100%;
         clip-path: circle(80%);
+        margin-top: 40pt;
     }
 }
 .Logo{
@@ -74,6 +80,7 @@ BODY{
     padding-left:35% ;
 }
 .content{
+    padding-top: 4vh;
     text-align: center;
 }
 .content h1{
@@ -92,9 +99,10 @@ BODY{
     grid-template-columns: 1fr 1fr;
 }
 #manager{
-    width: 70%;
+    margin-top: -17pt;
+    width: 80%;
     height: auto;
-    clip-path: circle(40%);
+    clip-path: circle(30%);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    margin-left: 15vw;
+    margin-left: 12vw;
 }
