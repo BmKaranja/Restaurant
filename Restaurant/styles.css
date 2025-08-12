@@ -74,7 +74,7 @@ BODY{
         margin-top: 40pt;
     }
     #h2-1{
-        display: none;
+        display: none;    
     }
     .menu-item{
         display: none;
@@ -143,13 +143,32 @@ h2{
     height: 40vh;
     width: auto;
 }
-.About p{
-    text-align: center;
-    color: rgb(213, 247, 17);
-    font-size: medium;
+
+/* Base styles — hidden by default */
+.mobile-only {
+  display: none;
 }
-.About{
-    justify-content: center;
-    align-items: center;
-    padding: 0 6vw;
+
+/* Button styling */
+.order-btn {
+    background-color: rgba(109, 247, 17, 0.826);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Reveal on phones */
+@media (max-width: 600px) {
+  .mobile-only {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+  }
+}
+.order-btn:hover {
+    transform: scale(1.05);
+    color: blue;
 }
