@@ -15,7 +15,7 @@ BODY{
     margin-bottom: 1vw;
 }
 .h1-links{
-    color:rgb(213, 247, 17);
+    color:white;
     font-weight: bolder;
     float:right;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -26,7 +26,7 @@ BODY{
     transition: color 0.3s ease;
 }
 .h1-links:hover{
-    color:var(--text-color);
+    color:rgb(213, 247, 17);
 }
 .top{
     height:100vh;
@@ -52,12 +52,6 @@ BODY{
     .h1-links{
         padding-top: 3%;
         font-size: 3vw;
-        color: #FFA500;
-    }
-    .Logo{
-        padding-left: 30%;
-        position: relative;
-        top: 10%;
     }
     .content{
         margin-top: -4vh;
@@ -82,8 +76,8 @@ BODY{
 }
 .Logo{
     position: relative;
-    top: 14%;
-    padding-left:35% ;
+    top: 11%;
+    padding-left:34% ;
 }
 .content{
     padding-top: 4vh;
@@ -167,8 +161,24 @@ h2{
     text-align: center;
     margin: 20px 0;
   }
+  .desktop-only {
+    display: none;
+  }
 }
 .order-btn:hover {
     transform: scale(1.05);
     color: blue;
+}
+.desktop-only{
+    text-align: center;
+    margin: 20px 0; 
+}
+#View{
+    text-align: right;
+    font-size: 1.5vw;
+    color: rgb(213, 247, 17);
+    margin-top: 2vh;
+}
+#View a:hover{
+    font-weight: bold;
 }
