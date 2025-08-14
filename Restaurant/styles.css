@@ -26,7 +26,7 @@ BODY{
     transition: color 0.3s ease;
 }
 .h1-links:hover{
-    color:rgb(213, 247, 17);
+    color:#D4AF37;
 }
 .top{
     height:100vh;
@@ -87,8 +87,9 @@ BODY{
     text-decoration:underline;
 }
 .content p{
+    font-family: fantasy;
     font-size: 1.5vw;
-    color:rgb(213, 247, 17) ;
+    color:#D4AF37;
     margin: 0 auto;
     width: 60%;
     font-style: italic;
@@ -114,7 +115,8 @@ h2{
     text-decoration: underline;
 }
 .menu-item{
-    background-color: rgba(109, 247, 17, 0.826);
+    font-family: fantasy;
+    background-color:#D4AF37;
     color: var(--text-color);
     padding: 1vw;
     margin: 1vw;
@@ -127,6 +129,7 @@ h2{
     box-shadow: 0 4px 8px rgba(181, 224, 25, 0.2);
 }
 .menu-item p{
+    color: #FAF9F6;
     text-align: center;
     font-size: 1.5vw;
 }
@@ -145,7 +148,7 @@ h2{
 
 /* Button styling */
 .order-btn {
-    background-color: rgba(109, 247, 17, 0.826);
+    background-color: #D4AF37;
     color: white;
     padding: 12px 20px;
     text-decoration: none;
@@ -164,6 +167,17 @@ h2{
   .desktop-only {
     display: none;
   }
+  .Form img{
+    display: none;
+  }
+  .login-container{
+    position: relative;
+    left: 40%;
+  }
+  .login-container-1{
+    position: relative;
+    left: 40%;
+  }
 }
 .order-btn:hover {
     transform: scale(1.05);
@@ -181,4 +195,34 @@ h2{
 }
 #View a:hover{
     font-weight: bold;
+}
+.Form{
+    margin-top: 4vh;
+    margin-left: 12vw;
+    width: 75%;
+    height: 70%;
+    color: black;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 4px 8px rgba(181, 224, 25, 0.2);
+}
+.login-container{
+    padding-top: 30%;
+    padding-left: 15%;
+}
+.Form button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    box-shadow:#D4AF37;
+;
+}
+.login-container-1{
+    padding-top: 10%;
+    padding-left: 15%;
+}
+.Form img{
+    object-fit: cover;
 }
