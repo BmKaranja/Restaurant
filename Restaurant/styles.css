@@ -34,6 +34,8 @@ BODY{
     background-image:url("pexels-elevate-1267315.jpg");
     background-size: cover;
     background-position: center;
+    filter: drop-shadow(0 4px 8px #D4AF37);
+
 }
 
 :root {
@@ -44,14 +46,16 @@ BODY{
 }
 @media screen and (max-width:600px) {
     .top{
-        height: 50vh;
+        height: 48vh;
     }
     body{
-        margin-top: -4.9vw;
+        margin-top: -7.9vh;
     }
     .h1-links{
-        padding-top: 3%;
         font-size: 3vw;
+    }
+    .header{
+        padding-top: -10vh;
     }
     .content{
         margin-top: -4vh;
@@ -73,10 +77,13 @@ BODY{
     .menu-item{
         display: none;
     }
+    #View{
+        display: none;
+    }
 }
 .Logo{
     position: relative;
-    top: 11%;
+    top: 18%;
     padding-left:34% ;
 }
 .content{
@@ -178,6 +185,14 @@ h2{
     position: relative;
     left: 40%;
   }
+  .header{
+    position: relative;
+    top: 10%;
+    }
+    #Menu-header{
+    padding-top: 20vh;
+    font-size: 10vw;
+    }
 }
 .order-btn:hover {
     transform: scale(1.05);
@@ -229,4 +244,23 @@ h2{
 .booking-container{
     padding-top: 4vh;
     padding-left: 4vw;
+}
+.top-menu{
+    background-image: url("pexels-picjumbo-com-55570-225228.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    object-fit: fill;
+    filter: drop-shadow(0 4px 8px #D4AF37);
+    margin-top: -9vh;
+}
+.top-menu h1{
+    text-align: center;
+    color: white;
+    font-size:7vw;
+    padding-top: 20vh;
+    font-family: "Literata", serif;
+}
+.top-menu-1{
+    opacity: 0;
 }
