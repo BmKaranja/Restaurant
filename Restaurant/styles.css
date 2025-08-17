@@ -71,9 +71,6 @@ BODY{
         clip-path: circle(80%);
         margin-top: 40pt;
     }
-    #h2-1{
-        display: none;    
-    }
     .menu-item{
         display: none;
     }
@@ -194,6 +191,9 @@ h2{
     padding-top: 20vh;
     font-size: 10vw;
     }
+     .menu-links , #h2-2{
+        display: none;
+    }
 }
 .order-btn:hover {
     transform: scale(1.05);
@@ -202,15 +202,6 @@ h2{
 .desktop-only{
     text-align: center;
     margin: 20px 0; 
-}
-#View{
-    text-align: right;
-    font-size: 1.5vw;
-    color: rgb(213, 247, 17);
-    margin-top: 2vh;
-}
-#View a:hover{
-    font-weight: bold;
 }
 .Form{
     margin-top: 4vh;
@@ -247,7 +238,7 @@ h2{
     padding-left: 4vw;
 }
 .top-menu{
-    background-image: url("pexels-picjumbo-com-55570-225228.jpg");
+    background-image: url("pexels-isabella-mendes-107313-858508.jpg");
     background-size: cover;
     background-position: center;
     height: 70vh;
@@ -277,4 +268,74 @@ h2{
     width: 24px;
     height: 24px;
     vertical-align: middle;
+}
+.menu-links a{
+    padding-left: 13vw;
+    color: white;
+    font-size: x-large;
+}
+.menu-links a:hover{
+    color: #D4AF37;
+}
+.menu-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
+    list-style-type: none;
+}
+.menu-image{
+    border-radius: 10px;
+    width: 25vw;
+    height:auto;
+
+}
+.menu-section{
+    padding-left: 2vw;
+    background-color: #1c1c1c; /* Charcoal Black */
+    color: #ffffff; /* White for contrast */
+    border-radius: 10px;
+    margin-bottom: 2vw;
+}
+.menu-list-1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(23vw, 1fr));
+    list-style-type: none;
+    padding-left: 1%;
+}
+.menu-image{
+    border-radius: 10px;
+    width: 23vw;
+    height:auto;
+}
+.menu-list-1 p{
+    text-align: center;
+}
+.menu-buttons{
+    display: flex; 
+    justify-content: center;
+}
+.menu-buttons button {
+    background-color: #D4AF37;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.menu-buttons button:hover {
+    background-color: #800020; /* Deep Burgundy */
+    color: #D4AF37; /* Metallic Gold */
+}
+.menu-list-1 button {
+    width: 70%;
+    background-color: #D4AF37;
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu-buttons a{
+    width: 10;
+    padding: 0 10px;
 }
