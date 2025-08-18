@@ -29,12 +29,12 @@ BODY{
     color:#D4AF37;
 }
 .top{
+    filter: drop-shadow(0 4px 8px white);
     height:100vh;
     width:100%;
     background-image:url("pexels-elevate-1267315.jpg");
     background-size: cover;
     background-position: center;
-    filter: drop-shadow(0 4px 8px #D4AF37);
 
 }
 
@@ -155,11 +155,12 @@ h2{
 .order-btn {
     background-color: #D4AF37;
     color: white;
-    padding: 12px 20px;
+    padding: 12px 30px;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
     display: inline-block;
+    margin-left: 43vw;
 }
 
 /* Reveal on phones */
@@ -238,12 +239,12 @@ h2{
     padding-left: 4vw;
 }
 .top-menu{
+    filter: drop-shadow(0 4px 8px white);
     background-image: url("pexels-isabella-mendes-107313-858508.jpg");
     background-size: cover;
     background-position: center;
     height: 70vh;
     object-fit: fill;
-    filter: drop-shadow(0 4px 8px #D4AF37);
     margin-top: -9vh;
 }
 .top-menu h1{
@@ -302,6 +303,7 @@ h2{
     padding-left: 1%;
 }
 .menu-image{
+    filter: drop-shadow(0 4px 8px #D4AF37);
     border-radius: 10px;
     width: 23vw;
     height:auto;
@@ -335,7 +337,9 @@ h2{
     border-radius: 5px;
     cursor: pointer;
 }
-.menu-buttons a{
-    width: 10;
-    padding: 0 10px;
+.m-links{
+    color: #D4AF37; /* Metallic Gold */
+}
+.m-links:hover{
+    color:white
 }
