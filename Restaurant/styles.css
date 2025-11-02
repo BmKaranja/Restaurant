@@ -343,3 +343,12 @@ h2{
 .m-links:hover{
     color:white
 }
+#count{
+    border-radius: 50%;
+    background-color: black;
+    height:10vh;
+    width: 20vw;
+}
+.hidden{
+    display: none;
+}
